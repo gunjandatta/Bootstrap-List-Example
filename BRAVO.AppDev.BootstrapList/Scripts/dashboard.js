@@ -236,14 +236,14 @@ function updateItemPanel(link) {
     // Get the item
     var item = _items[link.getAttribute("data-item-id")];
 
+    // Update the main title
+    document.querySelector("#mainTitle").innerText = item.Title;
+
     // See if we have already rendered this item
     if (_currentItem && _currentItem.ID == item.ID) { return; }
 
     // Set the current item
     _currentItem = item;
-
-    // Update the main title
-    document.querySelector("#mainTitle").innerText = item.Title;
 
     // Update the child panel
     updateChildPanel();
