@@ -1,7 +1,7 @@
 #Bootstrap List Example
 
 ##Overview
-The overall goal of this example is to show how to customize a list and provide a simple dashboard utilizing Bootstrap in a SharePoint Hosted app. This example can be used as the base to any app, and demonstrates how to little code is required for the customizations.
+The overall goal of this example is to show how to customize a list and provide a simple dashboard utilizing Bootstrap in a SharePoint Hosted app. This example demonstrates how little code is required for the customizations. The forms are not styled outside the 3rd party plugins. I wanted to demonstrate what you get without styling.
 
 ##Configuration
 The Bravo App Template allows the developer to set the architecture of the app in separate configuration files. Below is an overview of this example's configuration.
