@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0"
+         Id="a4c83d81-7379-46ba-8429-e4689bf3f33a" 
+         solutionId="a4c83d81-7379-46ba-8429-e4689bf3f33a" 
+         resetWebServer="false"
+         sharePointProductVersion="15.0"
+         name="BRAVO.AppDev.BootstrapList"
+         xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="4d62f0e0-754b-436f-99d0-c3f89235fe5d" />
+  </features>
+</package>

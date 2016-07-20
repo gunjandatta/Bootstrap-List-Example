@@ -1,0 +1,15 @@
+﻿/* Buttons */
+a.btn:visited {
+    color: #FFF;
+}
+
+/* Panel Header */
+#panelHeader {
+    margin-top: 0px;
+}
+
+/* Hide SP Components */
+#s4-ribbonrow, #s4-titlerow {
+    /* Important is required, to overwrite the inline attribute. */
+    display: none !important;
+}
