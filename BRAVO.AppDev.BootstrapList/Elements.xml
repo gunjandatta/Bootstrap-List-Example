@@ -6,5 +6,9 @@
     <File Path="fonts\glyphicons-halflings-regular.ttf" Url="fonts/glyphicons-halflings-regular.ttf" ReplaceContent="TRUE" />
     <File Path="fonts\glyphicons-halflings-regular.svg" Url="fonts/glyphicons-halflings-regular.svg" ReplaceContent="TRUE" />
     <File Path="fonts\glyphicons-halflings-regular.eot" Url="fonts/glyphicons-halflings-regular.eot" ReplaceContent="TRUE" />
+    <File Path="Documentation\newItemForm.png" Url="Documentation/newItemForm.png" ReplaceContent="TRUE" />
+    <File Path="Documentation\dashboard.png" Url="Documentation/dashboard.png" ReplaceContent="TRUE" />
+    <File Path="Documentation\itemDashboard.png" Url="Documentation/itemDashboard.png" ReplaceContent="TRUE" />
+    <File Path="Documentation\navPanel.png" Url="Documentation/navPanel.png" ReplaceContent="TRUE" />
   </Module>
 </Elements>

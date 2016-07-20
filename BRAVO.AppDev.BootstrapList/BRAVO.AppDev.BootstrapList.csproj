@@ -77,6 +77,10 @@
     <None Include="Images\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{261e355d-540c-4635-871e-64729f3f9484}</SharePointProjectItemId>
     </None>
+    <Content Include="Documentation\dashboard.png" />
+    <Content Include="Documentation\itemDashboard.png" />
+    <Content Include="Documentation\navPanel.png" />
+    <Content Include="Documentation\newItemForm.png" />
     <Content Include="Elements.xml" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\Elements.xml" />
@@ -128,6 +132,7 @@
       <SubType>Designer</SubType>
     </AppManifestFile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

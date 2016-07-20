@@ -7,5 +7,9 @@
     <ProjectItemFile Source="fonts\glyphicons-halflings-regular.ttf" Target="fonts\" Type="ElementFile" />
     <ProjectItemFile Source="fonts\glyphicons-halflings-regular.svg" Target="fonts\" Type="ElementFile" />
     <ProjectItemFile Source="fonts\glyphicons-halflings-regular.eot" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Documentation\newItemForm.png" Target="Documentation\" Type="ElementFile" />
+    <ProjectItemFile Source="Documentation\dashboard.png" Target="Documentation\" Type="ElementFile" />
+    <ProjectItemFile Source="Documentation\itemDashboard.png" Target="Documentation\" Type="ElementFile" />
+    <ProjectItemFile Source="Documentation\navPanel.png" Target="Documentation\" Type="ElementFile" />
   </Files>
 </ProjectItem>
