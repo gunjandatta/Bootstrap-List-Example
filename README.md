@@ -87,7 +87,7 @@ BRAVO.JSLink.BootStrap.Templates = {
     View: BRAVO.JSLink.BootStrap.Methods.RenderForm
 };
 ```
-The render form method will use the render form methods to create the html markup.
+The render form method will use the JSLink class of the Bravo Core library to create the html markup.
 ```javascript
     // Render Form
     RenderForm: function (ctx) {
