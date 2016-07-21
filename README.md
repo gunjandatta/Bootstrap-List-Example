@@ -132,7 +132,7 @@ The render form method will use the JSLink class of the Bravo Core library to cr
     }
 ```
 ####Field Customizations
-The ParentId field is a number field, used for creating child items. We will override this field in the form and view(s).
+The ParentId is a number field, used for creating child items. We will override this field in the form and view.
 ```javascript
 // **********************************************************************************
 // Template Overrides
@@ -148,7 +148,7 @@ BRAVO.JSLink.Fields.Templates = {
     }
 };
 ```
-The new form will set the value and hide it, otherwise display it.
+The new form will default the value and hide it.
 ```javascript
     // Method to set the parent id value
     DefaultParentId: function (ctx, field) {
@@ -171,10 +171,10 @@ The new form will set the value and hide it, otherwise display it.
     },
 ```
 ####New Form
-The forms are not styled outside the 3rd party plugins. I wanted to demonstrate what you get without styling.
+The forms are not styled outside the 3rd party plugins. I wanted to demonstrate what you get without any custom styling applied.
 ![New Form](https://github.com/gunjandatta/Bootstrap-List-Example/blob/master/BRAVO.AppDev.BootstrapList/Documentation/newItemForm.png)
 ###Auto Installation
-The app landing page is the dashboard. If the list doesn't exist, the page will redirect to the admin page and install/configure the app. On successfull install, the page will redirect to the dashboard. The code below shows the initialization event of the configuration file.
+The app landing page is the dashboard. If the list doesn't exist, the page will redirect to the admin page and install/configure the app. On successfull install, the page will redirect to the dashboard. The code below shows the initialization event of the configuration file. I plan to update this in the future.
 ```javascript
     // The event called after the app panel is initialized.
     // source - The active web/site source.
@@ -195,7 +195,11 @@ The app landing page is the dashboard. If the list doesn't exist, the page will 
 ```
 ##Dashboard
 ![Dashboard](https://github.com/gunjandatta/Bootstrap-List-Example/blob/master/BRAVO.AppDev.BootstrapList/Documentation/dashboard.png)
-The dashboard has shows a list of the items. The navigation panel allows the user to view all items or just the ones assigned to him/her. Clicking on an item will display the item's information.
+The dashboard has shows a list of the items.
+
+##Navigation
+![Nav Panel](https://github.com/gunjandatta/Bootstrap-List-Example/blob/master/BRAVO.AppDev.BootstrapList/Documentation/navPanel.png)
+The navigation panel allows the user to view all items or just the ones assigned to him/her. Clicking on an item will display the item's information. It's just for basic demo purposes, and not meant for production.
 
 ##Item View
 ![Item Dashboard](https://github.com/gunjandatta/Bootstrap-List-Example/blob/master/BRAVO.AppDev.BootstrapList/Documentation/itemDashboard.png)
