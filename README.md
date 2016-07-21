@@ -1,7 +1,7 @@
 #Bootstrap List Example
 
 ##Overview
-The overall goal of this example is to show how to customize a list and provide a simple dashboard utilizing Bootstrap in a SharePoint Hosted app. This example demonstrates how little code is required for the customizations. The forms are not styled outside the 3rd party plugins. I wanted to demonstrate what you get without styling.
+The overall goal of this example is to show how to customize a list and provide a simple dashboard utilizing Bootstrap in a SharePoint Hosted app. This example demonstrates how little code is required for the customizations.
 
 ##Configuration
 The Bravo App Template allows the developer to set the architecture of the app in separate configuration files. Below is an overview of this example's configuration.
@@ -170,6 +170,9 @@ The new form will set the value and hide it, otherwise display it.
         return BRAVO.JSLink.getFieldDefaultHtml(ctx, field);
     },
 ```
+####New Form
+The forms are not styled outside the 3rd party plugins. I wanted to demonstrate what you get without styling.
+![New Form](https://github.com/gunjandatta/Bootstrap-List-Example/blob/master/BRAVO.AppDev.BootstrapList/Documentation/newItemForm.png)
 ###Auto Installation
 The app landing page is the dashboard. If the list doesn't exist, the page will redirect to the admin page and install/configure the app. On successfull install, the page will redirect to the dashboard. The code below shows the initialization event of the configuration file.
 ```javascript
