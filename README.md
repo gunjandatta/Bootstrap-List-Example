@@ -172,6 +172,7 @@ The new form will default the value and hide it.
 ```
 ####New Form
 ![New Form](https://github.com/gunjandatta/Bootstrap-List-Example/blob/master/BRAVO.AppDev.BootstrapList/Documentation/newItemForm.png)
+#
 The forms are not styled outside the 3rd party plugins. I wanted to demonstrate what you get without any custom styling applied.
 ###Auto Installation
 The app landing page is the dashboard. If the list doesn't exist, the page will redirect to the admin page and install/configure the app. On successfull install, the page will redirect to the dashboard. The code below shows the initialization event of the configuration file. I plan to update this in the future.
